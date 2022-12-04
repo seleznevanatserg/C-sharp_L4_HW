@@ -7,7 +7,7 @@ Double number1 = InputDoubleNumberTryParse();
 Console.WriteLine("Enter second number.");
 Double number2 = InputDoubleNumberTryParse();
 
-if (number2 % 1 == 0)
+if (number2 % 1 == 0) // иррац.степень отбрасывает как трудную
 {
     Double result = ProductedNumberFirstExtentSecond(number1, number2);
     Console.WriteLine($"{result} -- it's number {number1} in extent {number2}");
@@ -18,7 +18,7 @@ else
 }
 
 
-
+// метода для ввода
 Double InputDoubleNumberTryParse()
 {
 
@@ -35,7 +35,7 @@ Double InputDoubleNumberTryParse()
         return num;
     }
 }
-
+// возводит в число в степень 
 Double ProductedNumberFirstExtentSecond(Double number, Double extent)
 {
     double res = number;

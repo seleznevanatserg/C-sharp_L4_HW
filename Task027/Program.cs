@@ -6,7 +6,7 @@
 int number = ChoiceMethodEnter();
 int sumNumber = GetSumFromNumber(number);
 Console.WriteLine($"Sum numbers {number} = {sumNumber}");
-
+//ввод взят из ДЗ_03 задачи 19
 int InputIntNumberTryParse()
 {
     Console.WriteLine("Enter number, please.");
@@ -58,7 +58,7 @@ int ChoiceMethodEnter()
         return num;
     }
 }
-
+//перевод числа в массив (перевернутый) с  сумированием его элементов
 int GetSumFromNumber(int enteredNumber)
 {
     int count = 1;
